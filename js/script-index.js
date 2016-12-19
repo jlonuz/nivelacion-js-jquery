@@ -1,5 +1,6 @@
 $(document).ready( function(){
 
+	$("#ocultar-flecha").toggle();
 	//La variable "recipesArray" esta declarada en el archivo "data/recipes.js"
 	renderHighlightedRecipes(recipesArray);
 
