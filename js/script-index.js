@@ -4,6 +4,12 @@ $(document).ready( function(){
 	//La variable "recipesArray" esta declarada en el archivo "data/recipes.js"
 	renderHighlightedRecipes(recipesArray);
 
+
+	function printNews(){
+		var nuevoParrafo = $('<p>NUEVAS RECETAS</p>');
+		nuevoParrafo.appendTo('#elemento-nuevo');
+	}	
+	printNews(); 
 });
 
 
