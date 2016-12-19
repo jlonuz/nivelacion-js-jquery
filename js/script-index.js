@@ -19,8 +19,18 @@ $(document).ready( function(){
 */
 function renderHighlightedRecipes(recipesArray) {
 	console.log('Recipes: ', recipesArray);
-}
+	
+		
+		var propiedadTrue = null;
+		for(var i=0; i< recipesArray.length; i++){
+		if(recipesArray[i].highlighted == true){
+			//console.log(recipesArray[i]);
+			renderRecipe(recipesArray[i].title);
+		}
 
+
+	}
+}
 /*
 * Función que se encarga de pintar UNA recetas que tenga 
 * marcado el atributo "highlighted" como TRUE
@@ -45,8 +55,10 @@ function renderActivities(activitiesArray) {
 * Aqui se tiene que crear el HTML que esta en el 
 * archivo "templates/templates-activity.html"
 */
-function renderActivity(recipe) {
-	
+function renderActivity(recipe){
+
 }
+	
+
 
 
