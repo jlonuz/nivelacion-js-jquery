@@ -39,8 +39,29 @@ function renderHighlightedRecipes(recipesArray) {
 */
 function renderRecipe(recipe) {
 	console.log('Voy a pintar la receta: ', recipe);
-}
+/*
+var titulo_receta = document.get
 
+	var a = document.createElement("a");
+	a.classList.add("item-recipe");
+	var span = document.createElement("span");
+	span.classList.add("attribution");
+	var span_1 = document.createElement("span");
+	span_1.classList.add("title-recipe");
+	var title = document.createTextNode()
+	var span_2 = document.createElement("span");
+	span_2.classList.add("metadata-recipe");
+	var span_3 = document.createElement("span");
+	span_3.classList.add("author-recipe");
+	var span_4 = document.createElement("span");
+	span_4.classList.add("bookmarks-recipe");
+	var span_5 = document.createElement("span");
+	span_5.classList.add("icon-bookmark");
+	var img = document.createElement("img");
+	img.setAttribute.add("src")
+
+}*/
+}
 
 
 /*
